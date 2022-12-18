@@ -1,0 +1,1 @@
+print(max([sum([int(item) for item in elf.splitlines()]) for elf in open('input.txt').read().split('\n\n')]))
