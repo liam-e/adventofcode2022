@@ -7,7 +7,7 @@ decode = {
 
 def score(round):
     opponent, me = round.split(' ')
-    opponent, me = decode[opponent],decode[me]
+    opponent, me = decode[opponent], decode[me]
 
     if beats[me] == opponent: # win
         return me + 6
